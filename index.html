@@ -463,6 +463,15 @@
             </li>
           </ul>
         </div>
+        <div class="footer__subscribe">
+          <p class="subscribe__text">Subscribe</p>
+          <form class="footer__form">
+            <input type="email" class="footer__email" placeholder="E-mail">
+            <button type="submit" name="" class="footer__form_btn">Subscribe <svg width="24" height="24" class="footer__form_svg">
+              <use href="./images/icons.svg#icon__telegram"></use>
+            </svg></button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop">
@@ -528,6 +537,21 @@
                 placeholder="Text input"
               ></textarea>
             </div>
+          </div>
+          <div class="checkbox">
+            <input
+              class="check__modal visually__hidden"
+              type="checkbox"
+              name="privacy"
+              id="privacy"
+            />
+            <label class="check__text" for="privacy"
+              ><span class="check__square">
+                <svg class="modal__checkbox" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg></span>
+                <span>I accept the terms and conditions of the</span><a href="">Privacy Policy</a></label
+            >
           </div>
           <button type="submit" class="modal__form_btn">Send</button>
         </form>
