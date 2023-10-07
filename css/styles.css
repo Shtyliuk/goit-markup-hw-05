@@ -504,7 +504,7 @@ img {
 }
 .input__wrap {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal__form_btn {
   display: block;
@@ -645,7 +645,6 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #fff;
