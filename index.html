@@ -466,11 +466,20 @@
         <div class="footer__subscribe">
           <p class="subscribe__text">Subscribe</p>
           <form class="footer__form">
-            <label for="subscribe-email" class="subscribe-email"></label>
-            <input type="email" id="subscribe-email" name="subscribe-email" class="footer__email" placeholder="E-mail">
-            <button type="submit" class="footer__form_btn">Subscribe <svg width="24" height="24" class="footer__form_svg">
-              <use href="./images/icons.svg#icon__telegram"></use>
-            </svg></button>
+            <label for="subscribe-email" class="subscribe-email">
+              <input
+                type="email"
+                id="subscribe-email"
+                name="subscribe-email"
+                class="footer__email"
+                placeholder="E-mail"
+            /></label>
+            <button type="submit" class="footer__form_btn">
+              Subscribe
+              <svg width="24" height="24" class="footer__form_svg">
+                <use href="./images/icons.svg#icon__telegram"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -526,16 +535,14 @@
               </svg>
             </div>
           </div>
-          <div class="modal__field">
-            <div class="input__wrap">
+          <div class="input__wrap">
             <label for="user-comment" class="modal__label">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                class="modal__textarea"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal__textarea"
+              placeholder="Text input"
+            ></textarea>
           </div>
           <div class="checkbox">
             <input
@@ -548,9 +555,10 @@
             <label class="check__text" for="user-privacy"
               ><span class="check__square">
                 <svg class="modal__checkbox" width="10" height="8">
-                  <use href="./images/icons.svg#icon-vector"></use>
-                </svg></span>
-                <span>I accept the terms and conditions of the</span><a href="" class="footer__privacy_text">Privacy Policy</a></label
+                  <use href="./images/icons.svg#icon-vector"></use></svg
+              ></span>
+              <span>I accept the terms and conditions of the</span
+              ><a href="" class="footer__privacy_text">Privacy Policy</a></label
             >
           </div>
           <button type="submit" class="modal__form_btn">Send</button>
