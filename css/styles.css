@@ -467,7 +467,6 @@ img {
   border: none; 
 }
 .modal__svg_close{
-
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modal__btn:hover .modal__svg_close,
@@ -499,12 +498,14 @@ img {
   border-radius: 4px;
   border: 1px solid #4d5ae5;
 }
+.comment-wrap{
+margin-bottom: 16px;
+}
 .modal__input:focus + .modal__icons {
   fill: #4d5ae5;
 }
 .input__wrap {
   position: relative;
-  margin-bottom: 8px;
 }
 .modal__form_btn {
   display: block;
